@@ -24,7 +24,7 @@ repositories {
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter")
     compile("org.projectlombok:lombok:1.16.4")
     testCompile("junit:junit:4.12")
 }
