@@ -1,4 +1,4 @@
-package com.heller.hello.bean;
+package com.heller.hello.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

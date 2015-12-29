@@ -1,6 +1,6 @@
 package com.heller.hello;
 
-import com.heller.hello.bean.Quote;
+import com.heller.hello.vo.Quote;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

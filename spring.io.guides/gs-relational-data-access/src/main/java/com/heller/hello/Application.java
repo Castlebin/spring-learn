@@ -1,6 +1,6 @@
 package com.heller.hello;
 
-import com.heller.hello.bean.Customer;
+import com.heller.hello.vo.Customer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;

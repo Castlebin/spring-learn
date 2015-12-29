@@ -1,4 +1,4 @@
-package com.heller.hello.bean;
+package com.heller.hello.vo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
