@@ -1,4 +1,4 @@
-apply plugin: 'java'
+apply plugin: 'war'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
@@ -19,13 +19,22 @@ jar {
     version =  '0.1.0'
 }
 
+bootRun {
+    addResources = true
+}
+
 repositories {
     mavenCentral()
+}
+
+configurations {
+    providedRuntime
 }
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.projectlombok:lombok:1.16.4")
+    providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     testCompile("junit:junit:4.12")
 }
 
