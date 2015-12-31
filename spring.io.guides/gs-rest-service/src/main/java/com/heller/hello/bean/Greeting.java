@@ -1,4 +1,4 @@
-package com.heller.hello.vo;
+package com.heller.hello.bean;
 
 public class Greeting {
 

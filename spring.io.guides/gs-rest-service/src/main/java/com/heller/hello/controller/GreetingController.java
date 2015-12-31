@@ -1,7 +1,6 @@
 package com.heller.hello.controller;
 
-import com.heller.hello.vo.Greeting;
-
+import com.heller.hello.bean.Greeting;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
