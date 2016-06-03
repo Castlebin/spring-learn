@@ -1,7 +1,7 @@
-package com.heller.hello.vo;
+package com.heller.hello.dto;
 
 public class Greeting {
-    
+
     private String content;
 
     public Greeting(String content) {
