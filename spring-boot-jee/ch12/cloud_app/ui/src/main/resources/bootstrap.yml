@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ui_module # 在Eureka Server上注册的服务名
+
+eureka:
+  instance:
+    non-secure-port: ${server.port:80}
+    metadata-map:
+      instance-id: ${spring.application.name}:${random.value}
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/  # Eureka Server的地址

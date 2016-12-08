@@ -16,6 +16,7 @@
         <module>config</module>
         <module>person</module>
         <module>msg</module>
+        <module>ui</module>
     </modules>
 
     <parent>
