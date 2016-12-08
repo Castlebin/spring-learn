@@ -13,6 +13,7 @@
 
     <modules>
         <module>discovery</module>
+        <module>config</module>
     </modules>
 
     <parent>
